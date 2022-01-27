@@ -1,7 +1,4 @@
-
-
-from cmath import sqrt
-from math import sqrt, floor
+from numpy import sqrt, floor
 
 def isprime(x):
     for k in range(2,floor(sqrt(x))+1):
